@@ -10,6 +10,6 @@ public class TestController {
 
     @GetMapping("/data")
     public String getData() {
-        return "First message from AWS ECS";
+        return "AWS ECS v2";
     }
 }
